@@ -7,3 +7,26 @@ form{
     max-width: 25em;
     margin: 1em auto;
 }
+#mainbackground{
+    background: rgba(0, 0, 0, 0.2);
+    opacity: .9
+}
+ul{
+    background: rgba(0, 0, 0, 0.0);
+}
+h2{
+    background:0,0,0,0.0;
+    opacity: 0.0;
+    
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: hotpink;
+}
+h1{
+    color: white;
+}
