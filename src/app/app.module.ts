@@ -18,7 +18,8 @@ import { from } from 'rxjs';
   declarations: [
     AppComponent,
     ProductsComponent,
-    HeaderComponent
+    HeaderComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
