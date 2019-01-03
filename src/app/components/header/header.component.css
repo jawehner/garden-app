@@ -6,3 +6,12 @@
     margin-right: 0.5em;
     background-color: whitesmoke;
 }
+
+.mat-toolbar.mat-primary {
+    background:black;
+    font-style: 'xeno', 'arial', sans-serif;
+}
+
+.body{
+background-color: black;
+}
