@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
 
 import {MatToolbarModule} from '@angular/material';
 
@@ -13,18 +14,24 @@ import { ProductsComponent } from './products/products.component';
 import { HeaderComponent } from './components/header/header.component';
 import { from } from 'rxjs';
 
+ const routes = [
+   { path: 'about', component: AboutComponent },
+   { path: 'Products', component: ProductsComponent}
+];
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductsComponent,
-    HeaderComponent
+    HeaderComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
     MatToolbarModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    RouterModule.forRoot(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]
